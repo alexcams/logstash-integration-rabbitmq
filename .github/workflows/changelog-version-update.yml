@@ -31,7 +31,7 @@ on:
 
 jobs:
   changelog:
-    uses: logstash-plugins/.github/.github/workflows/pr-prepare.yml@main
+    uses: alexcams/.github/.github/workflows/pr-prepare.yml@fix-prNumber-not-used-on-manual-run
     with:
       command: ${{ inputs.command }}
       pr_number: ${{ inputs.pr_number }}
